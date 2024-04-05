@@ -1,0 +1,33 @@
+.sidebar {
+  flex: 1;
+  height: calc(100vh - 50px);
+
+  position: sticky;
+  top: 50px;
+}
+.sidebarContainer {
+    height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.sidebarTitle {
+  font-size: 18px;
+  font-weight: 500;
+}
+.sidebarItems {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.sidebarImg {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.center{
+    flex: 2;
+ padding: 0 10px;
+    margin-top: 70px;
+}
+.centerTop{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+padding: 20px;
+}
+.centerTopItems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.centerTopImg{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.centerTopInput{
+    border: none;
+    outline: none;
+}
+.topCenterBotm{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.topCenterBotmItems{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+.topCenterBotmItems>i{
+    font-size: 25px;
+}
+.topCenterBotmItems>span{
+    font-size: 14px;
+    font-weight: 500;
+}
+.shareBtn{
+    padding: 5px 10px;
+    background-color: green;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
